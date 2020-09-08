@@ -286,6 +286,7 @@ header{
 
 /*responsive design - adaptable a dispositivos moviles*/
 
+
 @media screen and (max-width: 1220px){
 
     .header-content,
@@ -302,13 +303,13 @@ header{
         width: 100%;
     }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 990px){
 
     .header-content,
     .container-all,
     .posts,
     .container-footer footer{
-        max-width: 800px;
+        max-width: 900px;
         padding: 0 20px;
     }
     #ctn-bars-search,
@@ -320,13 +321,13 @@ header{
         align-items: center;
     }
 }
-@media screen and (max-width: 790px){
+@media screen and (max-width: 833px){
 
     .header-content,
     .container-all,
     .posts,
     .container-footer footer{
-        max-width: 600px;
+        max-width: 800px;
         padding: 0 20px;
     }
     #ctn-bars-search,
@@ -399,7 +400,6 @@ header{
         flex-wrap: wrap;
     }
 }
-
 /*MODO OSCURO*/
 
 .dark-mode-button{
