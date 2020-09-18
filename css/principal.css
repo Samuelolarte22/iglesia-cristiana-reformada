@@ -104,7 +104,10 @@ header{
 #icon-menu:hover{
     opacity: 0.8;
 }
-
+/*audios*/
+.audio-center{
+    bottom: 200px;
+}
 /*Buscador de contenido*/
 
 #ctn-icon-search{
