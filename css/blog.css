@@ -198,6 +198,23 @@ input[type="radio"]{
     color: white;
 }
 
+/*responsive design barra de busqueda*/
+@media screen and (max-width: 1220px){
+
+    .header-content,
+    .container-all,
+    .container-footer footer{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+    #ctn-bars-search,
+    #move-content,
+    #ctn-bars-search input,
+    #box-search{
+        width: 100%;
+    }
+}
+
 /*responsive design*/
 
 @media screen and (max-width: 1200px){
@@ -207,7 +224,8 @@ input[type="radio"]{
     .posts{
         grid-template-columns: repeat(3, 1fr);
     }
-}
+ 
+ }
 
 @media screen and (max-width: 900px){
     .container-post{
@@ -215,6 +233,9 @@ input[type="radio"]{
     }
     .posts{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .logo{
+        right: -50px;
     }
 }
 
