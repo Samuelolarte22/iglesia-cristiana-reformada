@@ -198,3 +198,31 @@ input[type="radio"]{
     color: white;
 }
 
+/*responsive design*/
+
+@media screen and (max-width: 1200px){
+    .container-post{
+        width: 900px;
+    }
+    .posts{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container-post{
+        width: 600px;
+    }
+    .posts{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 590px){
+    .container-post{
+        width: 300px;
+    }
+    .posts{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
