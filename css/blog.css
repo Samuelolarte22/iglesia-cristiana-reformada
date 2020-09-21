@@ -157,6 +157,9 @@ input[type="radio"]{
 }
 
 /*sistema de filtrado*/
+[value="TODOS"]:checked ~ .posts .post[data-category]{
+    display: block;
+}
 
 [value="A. LLAMADO A LA ADORACIÓN"]:checked ~ .posts .post:not([data-category ~="A. LLAMADO A LA ADORACIÓN"]),
 [value="B. DÍA DEL SEÑOR"]:checked ~ .posts .post:not([data-category ~="B. DÍA DEL SEÑOR"]),
@@ -195,7 +198,7 @@ input[type="radio"]{
 [value= "O. FUTURO GLORIOSO"]:checked ~ .container-category [for ="O. FUTURO GLORIOSO"]
 {
     background: #46a2fd;
-    color: white;
+    color: #fff;
 }
 
 /*responsive design barra de busqueda*/
