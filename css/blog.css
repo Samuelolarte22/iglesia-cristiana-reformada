@@ -156,46 +156,48 @@ input[type="radio"]{
     opacity: 0.9;
 }
 
-/*sistema de filtrado*/
+/*sistema de filtrado*/ 
 [value="TODOS"]:checked ~ .posts .post[data-category]{
-    display: block;
+    display: block !important;
 }
 
-[value="A. LLAMADO A LA ADORACIÓN"]:checked ~ .posts .post:not([data-category ~="A. LLAMADO A LA ADORACIÓN"]),
-[value="B. DÍA DEL SEÑOR"]:checked ~ .posts .post:not([data-category ~="B. DÍA DEL SEÑOR"]),
-[value="C. DIOS PADRE"]:checked ~ .posts .post:not([data-category ~="C. DIOS PADRE"]),
-[value="D. TRINIDAD"]:checked ~ .posts .post:not([data-category ~="D. TRINIDAD"]),
-[value="E. JESUCRISTO, NACIMIENTO, VIDA Y MUERTE"]:checked ~ .posts .post:not([data-category ~="E. JESUCRISTO, NACIMIENTO, VIDA Y MUERTE"]),
-[value="F. JESUCRISTO, OBRA DE SALVACIÓN"]:checked ~ .posts .post:not([data-category ~="F. JESUCRISTO, OBRA DE SALVACIÓN"]),
-[value="G. ESPÍRITU SANTO"]:checked ~ .posts .post:not([data-category ~="G. ESPÍRITU SANTO"]),
-[value="H. LA PALABRA DE DIOS"]:checked ~ .posts .post:not([data-category ~="H. LA PALABRA DE DIOS"]),
-[value="I. VIDA EN CRISTO"]:checked ~ .posts .post:not([data-category ~="I. VIDA EN CRISTO"]),
-[value="J. CONSAGRACIÓN"]:checked ~ .posts .post:not([data-category ~="J. CONSAGRACIÓN"]),
-[value="K. ORACIÓN"]:checked ~ .posts .post:not([data-category ~="K. ORACIÓN"]),
-[value="L. CONFESIÓN DE PECADOS"]:checked ~ .posts .post:not([data-category ~="L. CONFESIÓN DE PECADOS"]),
-[value="M. CENA DEL SEÑOR Y BAUTISMO"]:checked ~ .posts .post:not([data-category ~="M. CENA DEL SEÑOR Y BAUTISMO"]),
-[value="N. IGLESIA"]:checked ~ .posts .post:not([data-category ~="N. IGLESIA"]),
-[value="O. FUTURO GLORIOSO"]:checked ~ .posts .post:not([data-category ~="O. FUTURO GLORIOSO"]){
-    display: none;
+[value="sección1"]:checked ~ .posts .post:not([data-category ~="sección1"]),
+[value="sección2"]:checked ~ .posts .post:not([data-category ~="sección2"]),
+[value="sección3"]:checked ~ .posts .post:not([data-category ~="sección3"]),
+[value="sección4"]:checked ~ .posts .post:not([data-category ~="sección4"]),
+[value="sección5"]:checked ~ .posts .post:not([data-category ~="sección5"]),
+[value="sección6"]:checked ~ .posts .post:not([data-category ~="sección6"]),
+[value="sección7"]:checked ~ .posts .post:not([data-category ~="sección7"]),
+[value="sección8"]:checked ~ .posts .post:not([data-category ~="sección8"]),
+[value="sección9"]:checked ~ .posts .post:not([data-category ~="sección9"]),
+[value="sección10"]:checked ~ .posts .post:not([data-category ~="sección10"]),
+[value="sección11"]:checked ~ .posts .post:not([data-category ~="sección11"]),
+[value="sección12"]:checked ~ .posts .post:not([data-category ~="sección12"]),
+[value="sección13"]:checked ~ .posts .post:not([data-category ~="sección13"]),
+[value="sección14"]:checked ~ .posts .post:not([data-category ~="sección14"]),
+[value="sección15"]:checked ~ .posts .post:not([data-category ~="sección15"]){
+    
+    display: none !important;
 }
+
 
 
 [value= "TODOS"]:checked ~ .container-category [for ="TODOS"],    
-[value= "A. LLAMADO A LA ADORACIÓN"]:checked ~ .container-category [for ="A. LLAMADO A LA ADORACIÓN"],
-[value= "B. DÍA DEL SEÑOR"]:checked ~ .container-category [for ="B. DÍA DEL SEÑOR"],
-[value= "C. DIOS PADRE"]:checked ~ .container-category [for ="C. DIOS PADRE"],
-[value= "D. TRINIDAD"]:checked ~ .container-category [for ="D. TRINIDAD"],
-[value= "E. JESUCRISTO, NACIMIENTO, VIDA Y MUERTE"]:checked ~ .container-category [for ="E. JESUCRISTO, NACIMIENTO, VIDA Y MUERTE"],
-[value= "F. JESUCRISTO, OBRA DE SALVACIÓN"]:checked ~ .container-category [for ="F. JESUCRISTO, OBRA DE SALVACIÓN"],
-[value= "G. ESPÍRITU SANTO"]:checked ~ .container-category [for ="G. ESPÍRITU SANTO"],
-[value= "H. LA PALABRA DE DIOS"]:checked ~ .container-category [for ="H. LA PALABRA DE DIOS"],
-[value= "I. VIDA EN CRISTO"]:checked ~ .container-category [for ="I. VIDA EN CRISTO"],
-[value= "J. CONSAGRACIÓN"]:checked ~ .container-category [for ="J. CONSAGRACIÓN"],
-[value= "K. ORACIÓN"]:checked ~ .container-category [for ="K. ORACIÓN"],
-[value= "L. CONFESIÓN DE PECADOS"]:checked ~ .container-category [for ="L. CONFESIÓN DE PECADOS"],
-[value= "M. CENA DEL SEÑOR Y BAUTISMO"]:checked ~ .container-category [for ="M. CENA DEL SEÑOR Y BAUTISMO"],
-[value= "N. IGLESIA"]:checked ~ .container-category [for ="N. IGLESIA"],
-[value= "O. FUTURO GLORIOSO"]:checked ~ .container-category [for ="O. FUTURO GLORIOSO"]
+[value= "sección1"]:checked ~ .container-category [for ="sección1"],
+[value= "sección2"]:checked ~ .container-category [for ="sección2"],
+[value= "sección3"]:checked ~ .container-category [for ="sección3"],
+[value= "sección4"]:checked ~ .container-category [for ="sección4"],
+[value= "sección5"]:checked ~ .container-category [for ="sección5"],
+[value= "sección6"]:checked ~ .container-category [for ="sección6"],
+[value= "sección7"]:checked ~ .container-category [for ="sección7"],
+[value= "sección8"]:checked ~ .container-category [for ="sección8"],
+[value= "sección9"]:checked ~ .container-category [for ="sección9"],
+[value= "sección10"]:checked ~ .container-category [for ="sección10"],
+[value= "sección11"]:checked ~ .container-category [for ="sección11"],
+[value= "sección12"]:checked ~ .container-category [for ="sección12"],
+[value= "sección13"]:checked ~ .container-category [for ="sección13"],
+[value= "sección14"]:checked ~ .container-category [for ="sección14"],
+[value= "sección15"]:checked ~ .container-category [for ="sección15"]
 {
     background: #46a2fd;
     color: #fff;
