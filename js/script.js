@@ -90,7 +90,7 @@ function presionar_tecla(){
 
 window.onkeydown = presionar_tecla;
 
-//Creando filtrado de busqueda
+//filtrado de busqueda
 
 document.getElementById("inputSearch").addEventListener("keyup", buscador_interno);
 
@@ -99,7 +99,7 @@ function buscador_interno(){
     filter = inputSearch.value.toUpperCase();
     li = box_search.getElementsByTagName("li");
 
-    //Recorriendo elementos a filtrar mediante los "li"
+    //Elementos a filtrar con "Li"
     for (i = 0; i < li.length; i++){
 
         a = li[i].getElementsByTagName("a")[0];
