@@ -139,6 +139,7 @@ header{
     padding: 20px;
     z-index: 9;
     transition: all 600ms;
+    border-radius: 4px;
 }
 
 #ctn-bars-search input{
@@ -148,11 +149,12 @@ header{
     padding: 10px;
     font-size: 18px;
     outline: 0;
+    border-radius: 10px;
 }
 
 #box-search{
     position: fixed;
-    top: 165px;
+    top: 169px;
     left: 50%;
     transform: translateX(-50%);
     width: 1200px;
@@ -160,6 +162,7 @@ header{
     z-index: 8;
     overflow: hidden;
     display:none;
+    border-radius: 20px;
 }
 
 #box-search li a{
@@ -171,6 +174,7 @@ header{
 
 #box-search li a:hover{
     background: #f3f3f3;
+    top: 25px;
 }
 
 #box-search li a i{
