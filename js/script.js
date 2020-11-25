@@ -44,11 +44,11 @@ window.onscroll = function(){
 
 
                                     //buscador de contenido
-//ejecutando funciones
+//funciones ejecutadas
 document.getElementById("icon-search").addEventListener("click", mostrar_buscador);
 document.getElementById("cover-ctn-search").addEventListener("click", ocultar_buscador);
 
-// variables
+// let`s
 bars_search =         document.getElementById("ctn-bars-search");
 cover_ctn_search =    document.getElementById("cover-ctn-search");
 inputSearch =         document.getElementById("inputSearch");
@@ -66,7 +66,7 @@ function mostrar_buscador(){
     }
 }
 
-//Funcion para ocultar el buscador
+//ocultar el buscador
 function ocultar_buscador(){
 
     bars_search.style.top ="-10px";
@@ -76,7 +76,7 @@ function ocultar_buscador(){
     
 }
 
-//ejecución de codigo al presionar tecla
+//tecla esc
 
 function presionar_tecla(){
 
@@ -99,7 +99,7 @@ function buscador_interno(){
     filter = inputSearch.value.toUpperCase();
     li = box_search.getElementsByTagName("li");
 
-    //Elementos a filtrar con "Li"
+    //filtrados con LI
     for (i = 0; i < li.length; i++){
 
         a = li[i].getElementsByTagName("a")[0];
