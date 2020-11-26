@@ -84,14 +84,13 @@ header{
 }
 
 #icon-menu{
-    width: 50px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
     position: absolute;
-    right: 20px;
-    top: 16px;
+    margin-left: -45px;
+    top: 22px;
     padding: 10px;
-    font-size: 20px;
-    background: #eeeeeefa;
+    font-size: 16px;
     border-radius: 100%;
     color: #787878;
     display: none;
