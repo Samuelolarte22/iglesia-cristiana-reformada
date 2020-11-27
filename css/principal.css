@@ -111,6 +111,7 @@ header{
 
 #ctn-icon-search{
     position: absolute;
+    margin-top: 5px;
     right: 20px;
     height: 100%;
     display: flex;
@@ -132,7 +133,7 @@ header{
 
 #ctn-bars-search{
     position: fixed;
-    top: -10px;
+    top: -30px;
     width: 100%;
     background: #fff;
     padding: 20px;
@@ -173,7 +174,7 @@ header{
 
 #box-search li a:hover{
     background: #f3f3f3;
-    top: 25px;
+    top: 5px;
 }
 
 #box-search li a i{

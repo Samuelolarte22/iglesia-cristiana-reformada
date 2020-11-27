@@ -57,7 +57,7 @@ box_search =          document.getElementById("box-search");
 //Funcion para mostrar el buscador
 function mostrar_buscador(){
 
-    bars_search.style.top="80px";
+    bars_search.style.top="40px";
     cover_ctn_search.style.display = "block";
     inputSearch.focus();
 
@@ -69,7 +69,7 @@ function mostrar_buscador(){
 //ocultar el buscador
 function ocultar_buscador(){
 
-    bars_search.style.top ="-10px";
+    bars_search.style.top ="-30px";
     cover_ctn_search.style.display ="none";
     inputSearch.value = "";
     box_search.style.display ="none";
