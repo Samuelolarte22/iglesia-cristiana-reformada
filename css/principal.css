@@ -380,4 +380,7 @@ header{
     #icon-menu{
         margin-top: -6px;
     }
+    .logo{
+        font-size: 12px;
+    }
 }
