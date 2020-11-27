@@ -366,15 +366,15 @@ header{
 
 @media screen and (max-width: 850px){
     header{
-        height: 60px;
+        height: 40px;
     }
     .header-content{
-        margin-top: -10px;
+        margin-top: -22px;
     }
     #icon-menu{
-        margin-top: -6px;
+        margin-top: -18px;
     }
     .logo{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
