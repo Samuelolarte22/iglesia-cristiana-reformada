@@ -364,7 +364,7 @@ header{
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 850px){
     header{
         height: 60px;
     }
