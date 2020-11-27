@@ -194,13 +194,13 @@ header{
 /*boton de ir arriba*/
 
 #button-up{
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     background: #46a2fd;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #f6f6f6;
     border-radius: 50%;
     font-size: 20px;
     position: fixed;
@@ -358,7 +358,7 @@ header{
     }
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 520px){
     .logo h1 br{
         display: none;
     }
@@ -367,5 +367,17 @@ header{
     }
     .container-info-cover h2{
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    header{
+        height: 60px;
+    }
+    .header-content{
+        margin-top: -10px;
+    }
+    #icon-menu{
+        margin-top: -6px;
     }
 }
