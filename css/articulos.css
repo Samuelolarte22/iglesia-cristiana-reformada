@@ -91,10 +91,16 @@ article p{
     color: #3c3c3c;
 }
 article img{
+    width: 100%;
+    margin-top: 20px;
+}
+.articulo{
     width: 200px;
     height: 200px;
-    margin-top: 20px;
     border-radius: 20px;
+}
+.xd h2{
+    color: black;
 }
 
 /*Asaid de los articulos relacionados*/
