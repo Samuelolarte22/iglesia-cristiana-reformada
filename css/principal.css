@@ -133,7 +133,7 @@ header{
 
 #ctn-bars-search{
     position: fixed;
-    top: -30px;
+    top: -25px;
     width: 100%;
     background: #fff;
     padding: 20px;
@@ -367,10 +367,10 @@ header{
 
 @media screen and (max-width: 850px){
     header{
-        height: 40px;
+        height: 42px;
     }
     .header-content{
-        margin-top: -12px;
+        margin-top: -18px;
     }
     #icon-menu{
         margin-top: -11px;
@@ -381,5 +381,8 @@ header{
     .container-category label{
         width: 70px;
         
+    }
+    .blog-container-cover{
+        margin-top: -15px;
     }
 }

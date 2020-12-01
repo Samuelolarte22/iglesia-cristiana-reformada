@@ -57,7 +57,7 @@ box_search =          document.getElementById("box-search");
 //Funcion para mostrar el buscador
 function mostrar_buscador(){
 
-    bars_search.style.top="40px";
+    bars_search.style.top="65px";
     cover_ctn_search.style.display = "block";
     inputSearch.focus();
 
