@@ -140,7 +140,9 @@ article img{
 .container-aside aside button:hover{
     opacity: 0.9;
 }
-
+.xd{
+    display: inline-block;
+}
 @media screen and (max-width: 1220px){
 
     .container-cover{
