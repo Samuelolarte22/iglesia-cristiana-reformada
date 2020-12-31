@@ -58,7 +58,7 @@ input[type="radio"]{
 
 
 .container-category{
-    width: 100%;
+    width: 40%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

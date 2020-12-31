@@ -241,6 +241,7 @@ header{
 
 .container-footer footer .logo-footer img{
     width: 100px;
+    border-radius: 10px;
 }
 
 .container-footer footer .redes-footer{
@@ -315,7 +316,9 @@ iframe{
     border-radius: 8px;
     border-top-left-radius: black;
 }
-/*responsive design - adaptable a dispositivos moviles*/
+
+
+/*responsive design*/
 
 
 
