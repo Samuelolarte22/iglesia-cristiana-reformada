@@ -52,13 +52,7 @@
 
 /*contenedor - contenido del articulo*/
 
-.container-content{
-    width: 1200px;
-    margin: auto;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
+
 
 article{
     width: 100%;
@@ -77,7 +71,7 @@ article::before{
     position: absolute;
     top: 110px;
     left: 0;
-    background: #46a2fd;
+    
 }
 
 article h1{
