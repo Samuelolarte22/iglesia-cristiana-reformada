@@ -7,11 +7,11 @@
     width: 100%;
     height: 500px;
     position: relative;
-    margin-top: 80px;
+    margin-top: 1px;
     background-image: url(../img/img8.jpg);
-    /*background-position: center;
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 
 .article-container-cover::before{
@@ -99,6 +99,7 @@ article img{
 
 /*Asaid de los articulos relacionados*/
 
+
 .container-aside aside{
     width: 320px;
     border-radius: 6px;
@@ -175,4 +176,22 @@ article img{
     #icon-menu{
         right: 20px;
     }
+}
+/*solucionador de errores temporales front*/
+
+.video1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-aside{
+    display: flex;
+    justify-content: center;
+}
+
+.container-content{
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
 }
