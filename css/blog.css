@@ -58,27 +58,27 @@ input[type="radio"]{
 
 
 .container-category{
-    width: 40%;
+    width: 20%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    margin-left: -20px;
     margin-top: 5px;
-    
+    overflow: scroll;
+    width: 100%;
 }
 
 .container-category label{
     width: 100%;
     text-align: center;
     padding: 6px 40px;
-    margin: 10px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
     font-size: 20px;
     background: #e2e2e2;
     border-radius: 5px;
     cursor: pointer;
 }
-
 
 /*Post - publicaciones*/
 
@@ -226,6 +226,7 @@ input[type="radio"]{
 
 /*responsive design*/
 
+
 @media screen and (max-width: 1200px){
     .container-post{
         width: 900px;
@@ -233,7 +234,6 @@ input[type="radio"]{
     .posts{
         grid-template-columns: repeat(3, 1fr);
     }
- 
  }
 
 @media screen and (max-width: 900px){
