@@ -73,7 +73,6 @@ function ocultar_buscador(){
     cover_ctn_search.style.display ="none";
     inputSearch.value = "";
     box_search.style.display ="none";
-    
 }
 
 //tecla esc
@@ -117,6 +116,7 @@ function buscador_interno(){
 
         }else{
             li[i].style.display = "none";
+
         }
 
     }
